@@ -5,24 +5,37 @@
     height: 100%;
     position: fixed;
     z-index: 1;
-    background-color: #6070ffe8;
+    background-color: rgba(39, 42, 49, 0.3);
     backdrop-filter: blur(3px);
     top: 0;
     left: 0;
   }
 
   .menu-overlay i {
-    padding: 8px;
+    display: flex;
+    padding: 20px 20px;
     position: absolute;
     right: 24px;
     top: 24px;
   }
 
+  .overlay-menu-list{
+    flex-direction: column;
+    display: flex;
+    padding-top: 40px;
+    width: 40%;
+    align-items: center;
+
+  }
+
   .option, i {
-    color: var(--white-color);
+    color: white;
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
+    text-decoration: none;
+    font-family: 'Cocogoose', sans-serif;
+    font-size: larger;
   }
 
   .header {

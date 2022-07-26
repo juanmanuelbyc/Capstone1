@@ -66,7 +66,7 @@
   <main class="main-content flex">
     <div class="menu-overlay" id="menu">
       <i class="bi bi-x close-icon"></i>
-      <ul class="menu-list bottom-header-list flex flex-column gap-5 list-unstyled">
+      <ul class="overlay-menu-list bottom-header-list flex flex-column gap-5 list-unstyled">
          <li><a href="#portfolio" class="option" aria-label="About">About</a></li>
          <li><a href="#about" class="option">Program</a></li>
          <li><a href="#contact" class="option">Join</a></li>
@@ -103,7 +103,7 @@
           <h3 class="main-program-title section-title">Main Program</h3>
         </div>
         <div class="red-line"></div>
-        <div class="program-container flex flex-column" id="program-container">
+        <div class="program-container flex" id="program-container">
           <div class="activity flex">
             <div class="activity-icon"><img class="act-icon" src="images/icons/lecture-icon.jpg"></div>
             <div class="activity-title">Lecture</div>
@@ -111,7 +111,7 @@
           </div>
           <div class="activity flex">
             <div class="activity-icon"><img class="act-icon" src="images/icons/exhibition-icon.jpg"></div>
-            <div class="activity-title">CC<br>Exhibition</div>
+            <div class="activity-title">CC Exhibition</div>
             <div class="activity-description">xxxxxx xxxx xx  xx x x x x xx xxx x x x x x x x x x x x xx x x  xx x  xxx x xxxxx x  x x xx </div>
           </div>
           <div class="activity flex">
@@ -139,44 +139,50 @@
 
     <!-- Featured Speakers Section -->
 
-    <section class="featured-speakers section" id="speakers">
-      <div class="speakers-content-container"></div>
+    <section class="featured-speakers section flex flex-column" id="speakers">
+      <div class="speakers-content-container flex flex-column content-container">
         <div class="speakers-title-box">
-          <h3 class="speakers-title">Speakers</h3>
+          <h3 class="speakers-title section-title">Featured Speakers</h3>
         </div>
         <div class="red-line"></div>
-        <div class="speakers-container">
-        </div>
+        <div class="speakers-container"></div>
       </div>
     </section>
 
     <!-- Partners Section -->
 
-    <section class="partners" id="partners">
-      <div class="partners-content-container">
-         <div class="partners-title-box">
-         <h3 class="partners-title">Partner</h3>
-         </div>
-         <div class="partners-container">
-         </div>
+    <section class="partners section flex flex-column" id="partners">
+      <div class="partners-content-container flex flex-column content-container">
+        <div class="partners-title-box">
+          <h3 class="partners-title section-title">Partner</h3>
+        </div>
+        <div class="red-line"></div>
+        <div class="partners-container flex">
+          <img class="mozilla-logo partner-logo" src="images/mozilla-logo.jpg">
+          <img class="mozilla-logo partner-logo" src="images/google-logo.jpg">
+          <img class="mozilla-logo partner-logo" src="images/naver-logo.jpg">
+          <img class="mozilla-logo partner-logo" src="images/daumkakao-logo.jpg">
+          <img class="mozilla-logo partner-logo" src="images/airbnb-logo.jpg">
+        </div>
       </div>
     </section>
 
     <!-- Footer -->
 
-    <Footer>
-      <div>
-
-      </div>
-      <div>
-
+    <Footer class="footer">
+      <div class="footer-content-container flex content-container">
+          <img class="footer-logo" src="images/footer-logo.jpg">
+        <div class="footer-info-container flex flex-column">
+          <h6 class="footerText1">2015 Creative Commons Korea. </h6>
+          <h6 class="footerText2">Some Rights Reserved</h6>
+          <p class="footerText3"></p>
+        </div>
       </div>
     </Footer>
   </main>
 
-
    <!-- Js files -->
-   <script rel="javascript" src="projects.js"></script>
+   <script rel="javascript" src="speakers.js"></script>
    <script rel="javascript" src="script.js"></script>
    <script rel="javascript" src="localStorage.js"></script>
 

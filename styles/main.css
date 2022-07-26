@@ -40,6 +40,7 @@ body {
   position: relative;
   left: 1rem;
   top: 0.5rem;
+
 }
 
 .menu-icon:hover,
@@ -117,8 +118,19 @@ body {
 .program-content-container {
   margin: 0 auto;
   align-items: center;
-  width: 100%;
+  width: 92%;
+  height: fit-content;
 }
+
+.program-container {
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 15px;
+  height: fit-content;
+  width: 100%;
+  }
 
 .main-program-title-box {
   text-align: center;
@@ -128,31 +140,27 @@ body {
   width: 50px;
   height: 1px;
   border-style: solid;
+  border-width: 0.5px;
   border-color: rgba(255, 0, 0, 0.5);
 }
 
-.main-program-title-box:after {
-  position: relative;
-  height: 10px;
-  width: 55px;
-  margin: 25px auto;
-  border-top: 1px solid red;
-  border-right: 1px solid red;
-  text-align: center; 
+.grey-line {
+  width: 25px;
+  height: 1px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: rgba(192, 181, 181, 0.5);
 }
 
 .section-title {
   font-size: 5vw;
+  font-family: var(--secondary-font);
 }
 
 .main-program-title {
   color: white;
   font-family: var(--secondary-font);
   font-weight: 400;
-}
-
-.program-container {
-  height: 200px;
 }
 
 .program-link-container {
@@ -175,20 +183,6 @@ body {
   width: 17rem;
   align-items: center;+
   padding: 50px;
-  }
-
-.program-content-container{
-  width: 92%;
-  height: fit-content;
-}
-
-.program-container {
-  justify-content: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  gap: 15px;
-  height: fit-content;
-  width: 100%;
   }
 
 .activity {
@@ -223,4 +217,136 @@ width: 2.3rem;
     font-size: 3vw;
     font-weight: 600;
     font-family: var(--secondary-font);
+    }
+
+    .speakers-content-container {
+      height: fit-content;
+      width: 92%;
+      align-items: center;
+      margin: 20px auto 20px;
+    }
+
+    .speakers-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      gap: 15px;
+      height: fit-content;
+      width: 100%;
+    }
+
+    .speakers-title-box {
+      text-align: center;
+    }
+
+    .speaker-card {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .speaker-image {
+      width: 125px;
+      height: 125px;
+    }
+
+    .chess-board {
+      width: 45px;
+      height: 45px;
+      position: relative;
+    }
+
+    .speaker-pic {
+      width: 95px;
+      height: 95px;
+      position: relative;
+      bottom: 30px;
+      left: 15px;
+    }
+
+    .speaker-info {
+      display: flex;
+      flex-direction: column;
+      width: 62vw;
+    }
+
+    .speaker-name {
+      font-family: var(--secondary-font);
+      font-size: 4.5vw;
+      font-weight: 800;
+    }
+
+    .speaker-pos {
+      font-family: var(--secondary-font);
+      font-size: 3vw;
+      font-weight: 600;
+      font-style: italic;
+      color: var(--customOrange);
+      margin-bottom: 0.6rem;
+    }
+
+    .speaker-act {
+      font-family: var(--secondary-font);
+      font-size: 2.8vw;
+      font-weight: 600;
+      color: var(--customBlack);
+      margin-top: 0.8rem;
+    }
+
+
+    .partners {
+      background-color: var(--customBlack);
+      padding: 2rem 0 2rem;
+    }
+
+    .partners-content-container {
+      height: fit-content;
+      width: 92%;
+      align-items: center;
+      margin: 0 auto 20px;
+    }
+
+    .partners-container{
+      justify-content: center;
+      margin-top: 10px;
+      margin-bottom: 0px;
+      gap: 15px;
+      height: fit-content;
+      width: 100%;
+      flex-wrap: wrap;
+    }
+
+    .partners-title {
+      color: white;
+    }
+
+    .partner-logo {
+      max-width: 100px;
+      max-height: 30px;
+    }
+
+    .footer {
+      background-color: white;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+    }
+
+    .footer-content-container {
+      justify-content: space-evenly;
+      margin: 1rem auto 0.5rem;
+    }
+
+    .footer-logo {
+      width: 6rem;
+      height: 1.5rem;
+    }
+
+    .footerText1,
+    .footerText2 {
+      font-family: var(--main-font);
+      font-size: 3vw;
+      height: fit-content;
     }
