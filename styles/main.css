@@ -73,8 +73,8 @@ body {
 .main-title-container {
   -webkit-background-clip: text;
   background-clip: text;
-	background-image: url('../images/letters-bg.jpg');
-	color: transparent;
+  background-image: url('../images/letters-bg.jpg');
+  color: transparent;
 }
 
 .main-title {
