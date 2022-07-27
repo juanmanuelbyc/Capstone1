@@ -127,7 +127,7 @@
     background-size: cover;
   }
 
-  .content-container{
+  .content-container {
     width: auto;
     display: flex;
   }
@@ -210,8 +210,7 @@
     width: 100%;
     font-size: 0.9vw;
     text-align: center;
-    }
-
+  }
 
   .whole-program-link {
     display: block;
@@ -223,182 +222,180 @@
   
   .join-link {
     display: none;
-    }
+  }
 
-    .featured-speakers {
-      background-color: #f8f8f8;
-    }
-
-
-    .speakers-container{
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 50px;
-      margin-bottom: 0;
-      gap: 15px;
-      width: 100%;
-    }
+  .featured-speakers {
+    background-color: #f8f8f8;
+  }
 
 
+  .speakers-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    gap: 15px;
+    width: 100%;
+  }
 
+  .speaker-card {
+    width: 400px;
+    gap: 3rem;
+  }
 
-    .speaker-card {
-      width: 400px;
-      gap: 3rem;
-    }
+  .speaker-name {
+    font-size: 140%;
+  }
 
+  .speaker-pos {
+    font-size: 80%;
+    margin-bottom: 0.6rem;
+  }
 
-    .speaker-name {
-      font-size: 140%;
-    }
+  .speaker-act {
+    font-size: 100%;
+    margin-top: 0.8rem;
+  }
 
-    .speaker-pos {
-      font-size: 80%;
-      margin-bottom: 0.6rem;
-    }
+  .footer-content-container,
+  .about-footer-content-container {
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 70px 0 80px;
+  }
 
-    .speaker-act {
-      font-size: 100%;
-      margin-top: 0.8rem;
-    }
+  .footer-logo,
+  .about-footer-logo {
+    width: 220px;
+    height: 45px;
+  }
 
+  .footerText1,
+  .about-footerText1 {
+    font-family: var(--main-font);
+    font-size: 0.8vw;
+    width: auto;
+  }
 
-    .footer-content-container,
-    .about-footer-content-container {
-      align-items: center;
-      justify-content: center;
-      gap: 40px;
-      margin: 70px 0 80px;
-    }
+  .footerText2,
+  .about-footerText2 {
+    display: block;
+    width: 40rem;
+    font-size: 0.8vw;
+  }
 
-    .footer-logo,
-    .about-footer-logo {
-      width: 220px;
-      height: 45px;
-    }
+  .about-welcome-text {
+    display: none;
+  }
 
-    .footerText1,
-    .about-footerText1 {
-      font-family: var(--main-font);
-      font-size: 0.8vw;
-      width: auto;
-    }
+  .about-main-title {
+    font-size: 3vw;
+    margin-top:40px;
+  }
 
-    .footerText2,
-    .about-footerText2 {
-      display: block;
-      width: 40rem;
-      font-size: 0.8vw;
-    }
+  .about-intro-short-text {
+    display: none;
+  }
 
-    .about-welcome-text {
-      display: none;
-    }
+  .about-intro-long-text {
+    display: block;
+    font-size: 0.8rem;
+    margin: 20px 40px 30px;
+  }
 
-    .about-main-title {
-      font-size: 3vw;
-      margin-top:40px;
-    }
+  .contact-text-container {
+    margin-top: 20px;
+    width: auto;
+    font-size: 0.8rem;
+  }
 
-    .about-intro-short-text {
-      display: none;
-    }
+  .email-link {
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+  }
 
-    .about-intro-long-text {
-      display: block;
-      font-size: 0.8rem;
-      margin: 20px 40px 30px;
-    }
+  .logo-title-box {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    gap: 5px;
+  }
 
-    .contact-text-container {
-      margin-top: 20px;
-      width: auto;
-      font-size: 0.8rem;
-    }
+  .logo-text-container h5 {
+    display: none;
+  }
 
-    .email-link {
-      font-size: 0.8rem;
-      margin-bottom: 30px;
-    }
+  .logo-text-container p {
+    display: block;
+    margin-top: 20px;
+    width: 40rem;
+    height: auto;
+    font-family: var(--main-font);
+    font-size: 0.7rem;
+    font-weight: 600;
+    align-self: center;
+    text-align: center;
+  }
 
-    .logo-title-box {
-      display: flex;
-      flex-direction: row;
-      width: auto;
-      gap: 5px;
-    }
+  .logo-image-container {
+    width: 80%;
+    padding: 30px 0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
 
-    .logo-text-container h5
-     {
-      display: none;
-    }
+  .logo-image {
+    width: 50%;
+    height: 50%;
+  }
 
-    .logo-text-container p {
-      display: block;
-      margin-top: 20px;
-      width: 40rem;
-      height: auto;
-      font-family: var(--main-font);
-      font-size: 0.7rem;
-      font-weight: 600;
-      align-self: center;
-      text-align: center;
-    }
+  .past-text-container h5 {
+    width: auto;
+  }
 
-    .logo-image-container {
-      width: 80%;
-      padding: 30px 0;
-      margin-top: 30px;
-      margin-bottom: 20px;
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      align-content: center;
-    }
+  .past-images-container {
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 90px;
+  }
 
-    .logo-image {
-      width: 50%;
-      height: 50%;
-    }
+  .past-image {
+    width: 80%;
+  }
 
-    .past-text-container h5
-     {
-      width: auto;
-    }
+  #about-partners {
+    display: none;
+  }
 
-    .past-images-container {
-      flex-direction: row;
-      gap: 20px;
-      align-items: center;
-      margin-top: 60px;
-      margin-bottom: 90px;
-    }
-  
-    .past-image {
-      width: 80%;
-    }
+  .footer {
+    background-color: #f8f8f8;
+  }
 
-    .about-partners {
-      display: none;
-    }
+  #about-footer {
+    background-color: black;
+  }
 
-    .footer {
-      background-color: #f8f8f8;
-    }
+  .about-footer {
+    background-color: black;
+  }
 
-    .about-footer {
-      background-color: black;
-    }
+  #about-footer-logo {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+  }
 
-    .about-footer-logo {
-      -webkit-filter: invert(1);
-      filter: invert(1);
-    }
-
-    .about-footerText1,
-    .about-footerText2 {
+  .about-footer-text {
     color: white;
+  }
+
 }
