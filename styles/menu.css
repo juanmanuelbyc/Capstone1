@@ -19,19 +19,18 @@
     top: 24px;
   }
 
-  .overlay-menu-list{
+  .overlay-menu-list {
     flex-direction: column;
     display: flex;
     padding-top: 40px;
     width: 40%;
     align-items: center;
-
   }
 
-  .option, i {
+  .option,
+  .i {
     color: white;
     font-weight: 600;
-    font-size: 32px;
     line-height: 44px;
     text-decoration: none;
     font-family: 'cocogoose', sans-serif;
@@ -40,6 +39,5 @@
 
   .header {
     display: none;
-}
-
+  }
 }

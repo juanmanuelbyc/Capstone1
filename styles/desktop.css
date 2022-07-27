@@ -1,10 +1,20 @@
+:root {
+  --customBlack: #272a31;
+  --customOrange: #ec5242;
+  --customGrey: #d3d3d3;
+  --media-color: #7f8cff;
+  --main-font: 'COCOGOOSE', sans-serif;
+  --secondary-font: 'lato', sans-serif;
+  --icons-font: 'font social icons 2018', sans-serif;
+}
+
 @media (min-width: 768px) {
 
   .header {
     flex-direction: column;
     display: block;
   }
-  
+
   .header-top {
     align-items: center;
     justify-content: flex-end;
@@ -12,42 +22,41 @@
     font-weight: normal;
     font-size: smaller;
   }
-  
+
   .header-bottom {
     align-items: center;
     justify-content: space-between;
     height: 60px;
   }
-  
+
   .logo {
     padding: 10px 12px;
   }
-  
+
   .logo-text {
     color: var(--main-theme-color);
     font-size: 1.125rem;
     font-weight: 700;
     text-decoration: none;
   }
-  
+
   .logo-text:hover {
     cursor: pointer;
   }
-  
+
   .menu-container {
     padding: 8px;
   }
 
   .bottom-header-list {
     font-weight: 200;
-    font: optional;
     font-size: 14px;
   }
 
   .text-icon {
     font-family: var(--icons-font);
   }
-  
+
   .top-header-option {
     font-size: 12px;
     font-weight: 100;
@@ -78,7 +87,7 @@
     align-items: center;
     padding: 50px;
   }
-  
+
   .header-div {
     padding: 1% 15%;
   }
@@ -154,7 +163,7 @@
     padding: 1rem 1rem 0.1rem;
     margin-bottom: 5vh;
   }
-  
+
   .intro-text {
     color: var(--customBlack);
     font-family: var(--secondary-font);
@@ -165,7 +174,7 @@
   .dates-text {
     font-size: 2.5vw;
   }
-  
+
   .venue-text {
     font-size: 1.5vw;
   }
@@ -176,13 +185,13 @@
 
   .program-content-container {
     padding: 40px 0 40px;
-    }
+  }
 
   .program-container {
     flex-direction: row;
     padding: 20px auto 30px;
     gap: 0.2rem;
-    }
+  }
 
   .activity {
     flex-direction: column;
@@ -190,13 +199,13 @@
     width: 13.5vw;
     padding: 1rem;
     gap:0.2rem
-    }
+  }
 
   .act-icon {
     height: 2.5rem;
     -webkit-filter: invert(1);
     filter: invert(1);
-    }
+  }
 
   .activity-title {
     font-size: 1.5vw; 
@@ -204,8 +213,8 @@
     text-align: center;
     margin: 0;
     padding: 0;
-    }
-    
+  }
+
   .activity-description {
     width: 100%;
     font-size: 0.9vw;
@@ -219,7 +228,7 @@
     font-size: 1rem;
     font-weight: 400;
   }
-  
+
   .join-link {
     display: none;
   }
