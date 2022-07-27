@@ -1,17 +1,25 @@
-# Microverse-Student-Project-1
+# Microverse-Capstone-1
 
-First project to add to our portfolio.
+First Capstone project to practice what we learned during the first block.
 
 We are trying to apply what we have studied regarding:
-- Understanding how to parse a Figma design to create a UI.
-- Using Flexbox to place elements in the page.
-- Building a personal portfolio site.
-- Using images and backgrounds to enhance the look of the website.
+Use semantic HTML tags.
+Apply best practices in HTML code.
+Use CSS selectors correctly.
+Use CSS box model.
+Use Flexbox to place elements in the page.
+Demonstrate ability to create UIs adaptable to different screen sizes using media queries.
+Use GitHub Pages to deploy web pages.
+Apply JavaScript best practices and language style guides in code.
+Use JavaScript to manipulate DOM elements.
+Use JavaScript events.
+Use objects to store and access data.
+Communicate technical concepts to other technical people.
 
 
 ## Built With
 
-- HTML, CSS
+- HTML, CSS, JavaScript
 
 ## Authors
 
@@ -24,7 +32,7 @@ We are trying to apply what we have studied regarding:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/juanmanuelbyc/Microverse-Student-Project-1/issues).
+Feel free to check the [issues page](https://github.com/juanmanuelbyc/Capstone1/issues).
 
 ## Show your support
 
@@ -43,6 +51,4 @@ This is how this project looks like
 
 ## Online version
 
-Checkout the online version
-
-[here!](https://juanmanuelbyc.github.io/Microverse-Student-Project-1/)
+No Online Version
