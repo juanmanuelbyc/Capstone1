@@ -9,7 +9,6 @@
 }
 
 @media (min-width: 768px) {
-
   .header {
     flex-direction: column;
     display: block;
@@ -45,7 +44,7 @@
   }
 
   .menu-container {
-    padding: 8px;
+    padding: 0;
   }
 
   .bottom-header-list {
@@ -90,10 +89,6 @@
 
   .header-div {
     padding: 1% 15%;
-  }
-
-  .menu-container {
-    padding: 0;
   }
 
   .menu-icon,
@@ -153,7 +148,7 @@
 
   .main-title {
     font-size: 4.5vw;
-    font-weight:800;
+    font-weight: 800;
   }
 
   .intro-text-container {
@@ -198,7 +193,7 @@
     height: fit-content;
     width: 13.5vw;
     padding: 1rem;
-    gap:0.2rem
+    gap: 0.2rem;
   }
 
   .act-icon {
@@ -208,7 +203,7 @@
   }
 
   .activity-title {
-    font-size: 1.5vw; 
+    font-size: 1.5vw;
     width: 100%;
     text-align: center;
     margin: 0;
@@ -236,7 +231,6 @@
   .featured-speakers {
     background-color: #f8f8f8;
   }
-
 
   .speakers-container {
     flex-direction: row;
@@ -301,7 +295,7 @@
 
   .about-main-title {
     font-size: 3vw;
-    margin-top:40px;
+    margin-top: 40px;
   }
 
   .about-intro-short-text {
@@ -357,7 +351,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     align-content: center;
   }
 
@@ -406,5 +399,4 @@
   .about-footer-text {
     color: white;
   }
-
 }

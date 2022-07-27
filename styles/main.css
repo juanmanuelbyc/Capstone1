@@ -28,7 +28,7 @@ body {
   justify-content: center;
 }
 
-.content-container{
+.content-container {
   width: 92%;
 }
 
@@ -42,7 +42,7 @@ body {
   top: 0.5rem;
 }
 
-.my-logo{
+.my-logo {
   width: 100px;
   height: 50px;
 }
@@ -72,14 +72,14 @@ body {
 
 .main-title-container {
   -webkit-background-clip: text;
-	background-clip: text;
+  background-clip: text;
 	background-image: url('../images/letters-bg.jpg');
 	color: transparent;
 }
 
 .main-title {
   font-size: 7.5vw;
-  font-weight:800;
+  font-weight: 800;
 }
 
 .intro-text-container {
@@ -135,7 +135,7 @@ body {
   gap: 15px;
   height: fit-content;
   width: 100%;
-  }
+}
 
 .main-program-title-box {
   text-align: center;
@@ -191,7 +191,7 @@ body {
 }
 
 .activity {
-  background-color: rgba(88, 82, 82, 0.6);;
+  background-color: rgba(88, 82, 82, 0.6);
   align-items: center;
   height: 90px;
   width: auto;
@@ -200,7 +200,7 @@ body {
 
 .activity-icon {
   width: 2.5rem;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .act-icon {
@@ -225,7 +225,7 @@ body {
 }
 
 .speakers {
-  background-color: white ;
+  background-color: white;
 }
 
 .speakers-content-container {
@@ -235,7 +235,7 @@ body {
   margin: 20px auto 20px;
 }
 
-.speakers-container{
+.speakers-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -304,7 +304,6 @@ body {
   margin-top: 0.8rem;
 }
 
-
 .partners {
   background-color: #434344;
   padding: 2rem 0 2rem;
@@ -317,10 +316,10 @@ body {
   margin: 0 auto 20px;
 }
 
-.partners-container{
+.partners-container {
   justify-content: center;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   gap: 15px;
   height: fit-content;
   width: 100%;
@@ -383,7 +382,7 @@ body {
 
 .about-main-title {
   font-size: 1.7rem;
-  font-weight:800;
+  font-weight: 800;
   color: var(--customOrange);
   margin-top: 10px;
 }
@@ -440,7 +439,7 @@ body {
   margin: 20px auto 20px;
 }
 
-.logo-container{
+.logo-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -484,7 +483,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   align-content: center;
 }
 
@@ -517,13 +515,13 @@ body {
 }
 
 .past-images-container {
-flex-direction: column;
-gap: 10px;
-align-items: center;
-margin-top: 20px;
-margin-bottom: 20px;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .past-image {
-width: 80%;
+  width: 80%;
 }
