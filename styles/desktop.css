@@ -20,6 +20,7 @@
     height: 30px;
     font-weight: normal;
     font-size: smaller;
+    background-color: var(--customBlack);
   }
 
   .header-bottom {
@@ -69,7 +70,7 @@
     font-weight: 200;
     text-decoration: none;
     transition: all 0.5s ease-out;
-    color: var(--customGrey);
+    color: black;
   }
 
   .cc-link {
@@ -110,8 +111,8 @@
   }
 
   .btm-header-option:hover,
-  .top-header-option:focus {
-    color: black;
+  .top-header-option:hover {
+    color: #ec5242;
   }
 
   .menu-overlay {

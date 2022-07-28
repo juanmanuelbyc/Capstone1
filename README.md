@@ -28,6 +28,15 @@ Communicate technical concepts to other technical people.
 - GitHub: [@juanmanuelbyc](https://github.com/juanmanuelbyc)
 
 
+
+## Acknowledgement
+
+Special credits to Cindy Shin: the author of the original design. Also available in following link
+
+[here!](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+
+
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -51,4 +60,6 @@ This is how this project looks like
 
 ## Online version
 
-No Online Version
+Try watching the live version
+
+[here!](https://juanmanuelbyc.github.io/Capstone1/)
