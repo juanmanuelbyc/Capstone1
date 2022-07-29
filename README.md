@@ -63,3 +63,9 @@ This is how this project looks like
 Try watching the live version
 
 [here!](https://juanmanuelbyc.github.io/Capstone1/)
+
+## Project Explanation
+
+Try watching my project explanation
+
+[here!](https://www.loom.com/share/0e033ade075547f9870c93cfc3c28555)
