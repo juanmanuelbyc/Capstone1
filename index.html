@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Awesome Webpage</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/desktop.css" />
+    <link rel="stylesheet" type="text/css" href="styles/menu.css" />
+
+    <!-- Cocogoose, Lato And Social Media Icons Fonts -->
+    <link rel="preconnect" href="https://fonts.cdnfonts.com">
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/font-social-icons-2018" rel="stylesheet">
+
+    <!-- Bootstrap CSS and Icons only -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+
+  <!-- Body (Page Content) -->
+  
+  <body>
+
+  <!-- Header -->
+    <header class="header">
+      <div class="header-div header-top flex">
+        <nav class="menu-container ">
+          <ul class="menu-list top-header-list list-unstyled">
+            <li><a href="#" class="top-header-option text-icon">n</a></li>
+            <li><a href="#" class="top-header-option text-icon">g</a></li>
+            <li><a href="#" class="top-header-option" aria-label="english">English</a></li>
+            <li><a href="#" class="top-header-option">My Page</a></li>
+            <li><a href="#" class="top-header-option">Log Out</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-div header-bottom flex">
+        <div class="logo">
+          <a href="index.html"><img alt="mylogo" class="my-logo" src="images/moto-logo.png"></a>
+        </div>
+        <nav class="menu-container flex align-items-lg-center gap-5">
+          <ul class="menu-list bottom-header-list flex gap-5 list-unstyled">
+            <li><a href="about.html" class="btm-header-option" aria-label="About">About</a></li>
+            <li><a href="#" class="btm-header-option">Program</a></li>
+            <li><a href="#" class="btm-header-option">Join</a></li>
+            <li><a href="#" class="btm-header-option">Sponsor</a></li>
+            <li><a href="#" class="btm-header-option">News</a></li>   
+          </ul>
+          <div class="cc-link flex justify-content-center">
+            <a>Bikers Club</a>
+          </div>
+        </nav> 
+      </div>
+    </header>
+
+    <!-- Mobile Menu Modal -->
+
+    <main class="main-content flex">
+      <div class="menu-overlay" id="menu">
+        <i class="bi bi-x close-icon"></i>
+        <ul class="overlay-menu-list bottom-header-list flex flex-column gap-5 list-unstyled">
+          <li><a href="about.html" class="option" aria-label="About">About</a></li>
+          <li><a href="#" class="option">Program</a></li>
+          <li><a href="#" class="option">Join</a></li>
+          <li><a href="#" class="option">Sponsor</a></li>
+          <li><a href="#" class="option">News</a></li>
+        </ul>
+      </div>
+
+
+    <!-- Main section -->
+
+      <section class="intro flex flex-column section">
+        <div class="menu-icon-container">
+          <img class="menu-icon" src="images/icons/menu.png" alt="menu-button">
+        </div>
+        <div class="intro-content-container flex flex-column content-container"> 
+          <h2 class="welcome-text">"Hello! Bike Riders!"</h2>
+          <div class="main-title-container">
+            <h1 class="main-title">ANNUAL STURGIS<br>MOTORCYCLE RALLY<br>2022</h1>
+          </div>
+          <div class="intro-text-container flex">
+            <p class="intro-text">For 2 weeks in august, people from around the world travel to sturgis, south dakota for the annually held sturgis motorcycle rally</p>
+          </div>
+          <h2 class="dates-text">2022.08.05(FRI) - 14(SUN)</h2>
+          <h3 class="venue-text">@ Harley-Davidson Way: Sturgis, South Dakota</h3>
+        </div>
+      </section>
+
+    <!-- Program Briefing Section -->
+
+      <section class="main-program section" id="main-program">
+        <div class="program-content-container flex flex-column content-container">
+          <div class="main-program-title-box">
+            <h3 class="main-program-title section-title">Main Program</h3>
+          </div>
+          <div class="red-line"></div>
+          <div class="program-container flex" id="program-container">
+            <div class="activity flex">
+              <div class="activity-icon"><img alt="lectu" class="act-icon" src="images/icons/lecture-icon.jpg"></div>
+              <div class="activity-title">Openning</div>
+              <div class="activity-description">Live Music at H-D Rally Point, Main Street Parade, Welcome from the Mayor</div>
+            </div>
+            <div class="activity flex">
+              <div class="activity-icon"><img alt="" class="act-icon" src="images/icons/poker.png"></div>
+              <div class="activity-title">Poker contest</div>
+              <div class="activity-description">No Limit Texas Hold'Em. $60 BUY-IN • 3,000 CHIPS Re-Entry & Alternates</div>
+            </div>
+            <div class="activity flex">
+              <div class="activity-icon"><img alt="" class="act-icon" src="images/icons/tatoo.png"></div>
+              <div class="activity-title">Tatoo Contest</div>
+              <div class="activity-description">Come show off your ink at Rally Point (the corner of Legendary Main St.)</div>
+            </div>
+            <div class="activity flex">
+              <div class="activity-icon"><img alt="" class="act-icon" src="images/icons/run.png"></div>
+              <div class="activity-title">Sturgis 5k</div>
+              <div class="activity-description">Join us for the Legendary 5K Run in the stunning setting of Sturgis City Park.</div>
+            </div>
+            <div class="activity flex">
+              <div class="activity-icon"><img alt="" class="act-icon" src="images/icons/bike.png"></div>
+              <div class="activity-title">Bikes Show</div>
+              <div class="activity-description">Enjoy watching the most stunning machines and try not to fall in love.</div>
+            </div>
+          </div>
+          <div class="program-link-container">
+            <a class="whole-program-link">SEE THE WHOLE PROGRAM</a>
+          </div>
+          <div class="join-link">Join the Sturgis Rally</div>
+        </div>
+      </section>
+
+    <!-- Featured Speakers Section -->
+
+      <section class="featured-speakers section flex flex-column" id="speakers">
+        <div class="speakers-content-container flex flex-column content-container">
+          <div class="speakers-title-box">
+            <h3 class="speakers-title section-title">Featured Bikes</h3>
+          </div>
+          <div class="red-line"></div>
+          <div class="speakers-container"></div>
+        </div>
+      </section>
+
+    <!-- Partners Section -->
+
+      <section class="partners section flex flex-column" id="partners">
+        <div class="partners-content-container flex flex-column content-container">
+          <div class="partners-title-box">
+            <h3 class="partners-title section-title">Partner</h3>
+          </div>
+          <div class="red-line"></div>
+          <div class="partners-container flex">
+            <img alt="" class="partner-logo" src="images/honda.png">
+            <img alt="" class="partner-logo" src="images/kawasaki.png">
+            <img alt="" class="partner-logo" src="images/harley.png">
+            <img alt="" class="partner-logo" src="images/yamaha.png">
+            <img alt="" class="partner-logo" src="images/ducati.png">
+          </div>
+        </div>
+      </section>
+
+    <!-- Footer -->
+
+      <Footer class="footer">
+        <div class="footer-content-container flex content-container">
+          <img alt="" class="footer-logo" src="images/sturgis.png">
+          <div class="footer-info-container flex flex-column">
+            <h6 class="footerText1">2022 Sturgis Motorcycle Rally. Some Rights Reserved</h6>
+            <p class="footerText2">The Sturgis Motorcycle Rally is an annual event that’s known worldwide.The Sturgis Motorcycle Rally is an annual event that’s known worldwide. The Sturgis Motorcycle Rally is an annual event that’s known worldwide.</p>
+          </div>
+        </div>
+      </Footer>
+    </main>
+
+    <!-- Js files -->
+    <script rel="javascript" src="speakers.js"></script>
+    <script rel="javascript" src="script.js"></script>
+    <script rel="javascript" src="localStorage.js"></script>
+
+    <!-- JavaScript Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
