@@ -1,6 +1,6 @@
 # Microverse-Capstone-1
 
-First Capstone project to practice what we learned during the first block.
+First Capstone project where we applied what we learned during the first module of the Microverse program curriculum.
 
 We are trying to apply what we have studied regarding:
 Use semantic HTML tags.
