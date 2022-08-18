@@ -19,7 +19,9 @@ Communicate technical concepts to other technical people.
 
 ## Built With
 
-- HTML, CSS, JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Authors
 
